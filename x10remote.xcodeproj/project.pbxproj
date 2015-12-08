@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009D18231C158E28009E1DB4 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009D18221C158E28009E1DB4 /* DeviceViewController.swift */; };
+		009D18271C15981A009E1DB4 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009D18261C15981A009E1DB4 /* RootTableViewController.swift */; };
+		009D18291C15B8E7009E1DB4 /* X10Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009D18281C15B8E7009E1DB4 /* X10Device.swift */; };
+		009D182B1C16378F009E1DB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009D182A1C16378F009E1DB4 /* Images.xcassets */; };
 		009E31571C149E9A00592EA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E31561C149E9A00592EA2 /* AppDelegate.swift */; };
 		009E31591C149E9A00592EA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E31581C149E9A00592EA2 /* ViewController.swift */; };
 		009E315C1C149E9A00592EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009E315A1C149E9A00592EA2 /* Main.storyboard */; };
-		009E315E1C149E9A00592EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009E315D1C149E9A00592EA2 /* Assets.xcassets */; };
 		009E31611C149E9A00592EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009E315F1C149E9A00592EA2 /* LaunchScreen.storyboard */; };
 		009E316C1C149E9A00592EA2 /* x10remoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E316B1C149E9A00592EA2 /* x10remoteTests.swift */; };
 		009E31771C149E9A00592EA2 /* x10remoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E31761C149E9A00592EA2 /* x10remoteUITests.swift */; };
@@ -34,11 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009D18221C158E28009E1DB4 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		009D18261C15981A009E1DB4 /* RootTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		009D18281C15B8E7009E1DB4 /* X10Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = X10Device.swift; sourceTree = "<group>"; };
+		009D182A1C16378F009E1DB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		009E31531C149E9A00592EA2 /* x10remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = x10remote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009E31561C149E9A00592EA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009E31581C149E9A00592EA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		009E315B1C149E9A00592EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		009E315D1C149E9A00592EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009E31601C149E9A00592EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009E31621C149E9A00592EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009E31671C149E9A00592EA2 /* x10remoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = x10remoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,9 +106,12 @@
 				009E31561C149E9A00592EA2 /* AppDelegate.swift */,
 				009E31581C149E9A00592EA2 /* ViewController.swift */,
 				009E315A1C149E9A00592EA2 /* Main.storyboard */,
-				009E315D1C149E9A00592EA2 /* Assets.xcassets */,
+				009D18261C15981A009E1DB4 /* RootTableViewController.swift */,
 				009E315F1C149E9A00592EA2 /* LaunchScreen.storyboard */,
 				009E31621C149E9A00592EA2 /* Info.plist */,
+				009D18221C158E28009E1DB4 /* DeviceViewController.swift */,
+				009D18281C15B8E7009E1DB4 /* X10Device.swift */,
+				009D182A1C16378F009E1DB4 /* Images.xcassets */,
 			);
 			path = x10remote;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					009E31521C149E9A00592EA2 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 36YE67R9S4;
 					};
 					009E31661C149E9A00592EA2 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -229,8 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009D182B1C16378F009E1DB4 /* Images.xcassets in Resources */,
 				009E31611C149E9A00592EA2 /* LaunchScreen.storyboard in Resources */,
-				009E315E1C149E9A00592EA2 /* Assets.xcassets in Resources */,
 				009E315C1C149E9A00592EA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +268,9 @@
 			files = (
 				009E31591C149E9A00592EA2 /* ViewController.swift in Sources */,
 				009E31571C149E9A00592EA2 /* AppDelegate.swift in Sources */,
+				009D18231C158E28009E1DB4 /* DeviceViewController.swift in Sources */,
+				009D18271C15981A009E1DB4 /* RootTableViewController.swift in Sources */,
+				009D18291C15B8E7009E1DB4 /* X10Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +412,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = x10remote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.botman.x10remote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +427,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = x10remote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.botman.x10remote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +505,7 @@
 				009E317D1C149E9A00592EA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		009E317E1C149E9A00592EA2 /* Build configuration list for PBXNativeTarget "x10remoteTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +514,7 @@
 				009E31801C149E9A00592EA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		009E31811C149E9A00592EA2 /* Build configuration list for PBXNativeTarget "x10remoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +523,7 @@
 				009E31831C149E9A00592EA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
